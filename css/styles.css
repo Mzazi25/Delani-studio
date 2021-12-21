@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    
+}
+.img{
+    height: auto;
+
+}
+
+.container{
+    margin: 0;
+
+}
+.box1{
+    text-align: center;
+    padding:15rem;
+    background-image: url(../images/h_img.jpeg);
+
+}
+
+.box1 h1{
+    color: white;
+    font-weight: 500;
+}
+.mouse-logo{
+     padding-top: 500px;
+}

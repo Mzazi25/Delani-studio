@@ -70,3 +70,11 @@
 
 
 }
+
+.contact_us{
+    padding: 150px;
+    background-image: url(../images/c_image.jpeg);
+    background-size:auto;
+    background-position:inherit;
+    background-attachment: fixed;
+}

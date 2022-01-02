@@ -1,4 +1,4 @@
-# Akan-Names
+# Delani-Studio
 
 ## Author
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-This Web Application gets your Akan Names using your birthdays and its different for Male and Female. 
+This web application is a website for a studio named Delani. This was a practice class project 
 
  ## SnapShot of the Web Application 
 <img src="images/Delani.png" width="800px" height="400px">

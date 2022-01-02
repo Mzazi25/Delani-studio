@@ -45,7 +45,7 @@ body{
     background-image: url(../images/s_image.jpeg);
     background-size: auto;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     padding-bottom: 220px;
     padding-top: 150px;
     color:white;

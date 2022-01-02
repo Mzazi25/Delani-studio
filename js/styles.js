@@ -15,9 +15,3 @@ $(document).ready(function() {
     $(".prod_description").toggle();
   });
 });
-
-$(document).ready(function() {
-  $(".product_icon").click(function() {
-    $(".prod_description").toggle();
-  });
-});

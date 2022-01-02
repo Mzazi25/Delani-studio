@@ -1,11 +1,23 @@
 *{
+
     margin: 0;
 
 
 }
+body{
+    line-height: 2.0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    margin: auto;
+    overflow: hidden;
+
+}
 .box1{
     text-align: center;
-    padding:15rem;
+    padding:20rem;
     background-image: url(../images/h_img.jpeg);
     background-size: cover;
     background-position: center;
@@ -19,6 +31,10 @@
     color: white;
     font-weight: 500;
 }
+.box1 p{
+    color:white
+
+}
 
 .about-us{
     text-align: center;
@@ -31,6 +47,8 @@
     background-position: center;
     background-attachment: fixed;
     padding-bottom: 220px;
+    padding-top: 150px;
+    color:white;
 
     text-align: center;
 }
@@ -39,30 +57,54 @@
     padding-top: 40px;
 }
 
+
 .what-we-do{
+
+
     display: flex;
     padding: 50px;
+    text-align: center;
+    width: auto
+
+
    
 }
 
 .design_icon{
     display: flex;
-    flex: 3;
+    display: inline-block;
+    flex: 4;
 
 }
 .dev_icon{
     display: flex;
-    flex: 3;
+    display: inline-block;
+    flex: 4;
+    
     
 }
 .product_icon{
     display: flex;
-    flex: 1;
+    display: inline-block;
+    flex: 4;
+
 
 }
-
 .portfolio{
+    margin-right:100px;
+    margin-left:100px;
+    text-align: center;
+}
+::placeholder{
+    color: white;
+    text-align: left;
+}
+
+.portfolio img{
     padding: 20px;
+    width:20%;
+    height: auto;
+
 }
 
 .portfolio h1{
@@ -70,11 +112,75 @@
 
 
 }
-
+.contact_us h2{
+    text-align: center;
+}
 .contact_us{
-    padding: 150px;
+    padding-bottom: 200px;
+    padding-top: 50px;
     background-image: url(../images/c_image.jpeg);
     background-size:auto;
     background-position:inherit;
     background-attachment: fixed;
+    text-align: center;
+    color: white
+
+
+}
+
+#nameForm input{
+    padding: 8px;
+    display: inline;
+    width: 35%;
+    float: left;
+    margin-left: 100px;
+    color:transparent;
+    background-color: transparent;
+    border: white solid;
+    border-width: thin;
+
+}
+#emailForm input{
+
+    padding: 8px;
+    display: inline;
+    width: 35%;
+    float: right;
+    margin-right: 140px;
+    background-color: transparent;
+    border: white solid;
+    border-width: thin;
+
+
+}
+#messageForm input{
+    padding:300px;
+    width:35%;
+    padding-top:20px;
+    background-color: transparent;
+    border: white solid;
+    border-width: thin;
+    
+}
+
+.footer{
+    padding-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.footer img{
+    margin-right: 20px;
+    
+}
+
+.design_description{
+    display: none;
+}
+
+.dev_description{
+    display: none;
+}
+
+.prod_description{
+    display: none;
 }
